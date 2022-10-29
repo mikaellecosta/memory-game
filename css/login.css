@@ -1,0 +1,84 @@
+body {
+    background-image: url('../imagens/wpp.jpg');
+    background-repeat: no-repeat;
+    background-size: 1370px 630px;
+    background-position-x: right;
+}
+
+.login-form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    justify-content: center;
+}
+
+.login__header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.login__header img {
+    width: 150px;
+    
+}
+
+.gradient-text {
+    
+    /* Create the gradient. */
+    background-image: linear-gradient(red,red, yellow,yellow);
+    background-size: 100%;
+    background-repeat: repeat;
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+  }
+
+.login__header h1 {
+    font-size: 2.5em;
+    font-weight: 2em;
+    text-align: center;
+    font-family: 'games';
+    padding: 20px;
+    
+}
+
+
+.login__input {
+    border: 2px rgb(49, 48, 48);
+    border-radius: 8px;
+    color:rgb(0, 0, 0);
+    font-weight: 900;
+    background-color: #ecd820;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: -50px;
+    max-width: 200px;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    padding: 2px;
+}
+
+.login__button {
+    background-color:#7ad610;
+    padding: 12px;
+    border-radius: 20px;
+    border: 2px solid black;
+    color: black;
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 900;
+    width: 15%;
+    max-width: 100%;
+}
+
+.login__button:disabled {
+    background-color:rgb(255, 0, 0);
+    color: black;
+    
+}
