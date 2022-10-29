@@ -3,8 +3,8 @@
 body {
     background-image: url('../imagens/wpp.jpg');
     background-repeat: no-repeat;
-    background-size: 1370px 630px;
-    background-position-x: right;
+    background-size: cover;
+    background-position: -0px -110px;
 }
 
 .login-form {
